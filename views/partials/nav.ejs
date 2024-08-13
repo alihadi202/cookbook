@@ -1,0 +1,9 @@
+<% if (user) { %>
+    <a href="/">home</a>
+      <a href="/auth/sign-out">Sign out</a>
+    </p>
+  <% } else { %>
+    <a href="/">home</a>
+      <a href="/auth/sign-up">Sign up</a>
+      <a href="/auth/sign-in">Sign in</a>
+  <% } %>
